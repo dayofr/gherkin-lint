@@ -20,7 +20,7 @@ jobs:
       matrix:
         # Note: Node 20.8 introduces a change which breaks mock-fs.
         # https://github.com/tschaub/mock-fs/issues/380
-        node: [ 10, 12, 14, 16, 18, 20.7 ]
+        node: [ 18, 20.7 ]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
